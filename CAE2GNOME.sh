@@ -1,10 +1,8 @@
 #!/bin/bash
-#
-#
-# Integrate applications from /applbin into the GNOME desktop menu.
-# Scans softlinks in /applbin, presents a checklist, and syncs
+
+# Integrate applications from $APPLBIN_DIR into the GNOME desktop environment.
+# Scans softlinks in $APPLBIN_DIR, presents a checklist, and syncs
 # ~/.local/share/applications/<app_name>.desktop files.
-#
 
 set -euo pipefail
 
